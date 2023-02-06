@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Domain", "01 Domain", "{05124386-2ABA-41BA-879C-74531FA7F0B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Application", "02 Application", "{C6DE9E18-3001-4860-AF87-3501B8A69B7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Infrastructure", "03 Infrastructure", "{AC68AA47-34E6-4CC0-ABB8-B6DF982ABF96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Integration", "04 Integration", "{B5356A62-2CB6-4C2F-8D2D-99DF5635B141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Communication", "05 Communication", "{740FA5E6-262B-4B65-9F6B-91049DBB9C68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.Domain", "ConfirmCoords.Domain\ConfirmCoords.Domain.csproj", "{8240BE45-2F24-4481-B9B1-DDA280E77BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.App", "ConfirmCoords.App\ConfirmCoords.App.csproj", "{6F334A06-DF45-4DDA-B089-9746145A85C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.Infrastructure", "ConfirmCoords.Infrastructure\ConfirmCoords.Infrastructure.csproj", "{6BBE34C0-CC99-4E86-A471-21903A464858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.EF_Core", "ConfirmCoords.EF_Core\ConfirmCoords.EF_Core.csproj", "{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.Notifications", "ConfirmCoords.Notifications\ConfirmCoords.Notifications.csproj", "{FA523B26-2C87-40EA-981F-F308C5428FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.Telegram", "ConfirmCoords.Telegram\ConfirmCoords.Telegram.csproj", "{F4667508-33ED-44D6-BC31-E16090B221CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.API", "ConfirmCoords.API\ConfirmCoords.API.csproj", "{42955C60-BCF1-44BD-B0DE-5FADE19C689D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8240BE45-2F24-4481-B9B1-DDA280E77BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8240BE45-2F24-4481-B9B1-DDA280E77BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8240BE45-2F24-4481-B9B1-DDA280E77BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8240BE45-2F24-4481-B9B1-DDA280E77BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F334A06-DF45-4DDA-B089-9746145A85C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F334A06-DF45-4DDA-B089-9746145A85C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F334A06-DF45-4DDA-B089-9746145A85C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F334A06-DF45-4DDA-B089-9746145A85C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBE34C0-CC99-4E86-A471-21903A464858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBE34C0-CC99-4E86-A471-21903A464858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBE34C0-CC99-4E86-A471-21903A464858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBE34C0-CC99-4E86-A471-21903A464858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA523B26-2C87-40EA-981F-F308C5428FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA523B26-2C87-40EA-981F-F308C5428FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA523B26-2C87-40EA-981F-F308C5428FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA523B26-2C87-40EA-981F-F308C5428FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4667508-33ED-44D6-BC31-E16090B221CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4667508-33ED-44D6-BC31-E16090B221CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4667508-33ED-44D6-BC31-E16090B221CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4667508-33ED-44D6-BC31-E16090B221CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42955C60-BCF1-44BD-B0DE-5FADE19C689D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42955C60-BCF1-44BD-B0DE-5FADE19C689D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42955C60-BCF1-44BD-B0DE-5FADE19C689D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42955C60-BCF1-44BD-B0DE-5FADE19C689D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8240BE45-2F24-4481-B9B1-DDA280E77BFD} = {05124386-2ABA-41BA-879C-74531FA7F0B7}
+		{6F334A06-DF45-4DDA-B089-9746145A85C0} = {C6DE9E18-3001-4860-AF87-3501B8A69B7D}
+		{6BBE34C0-CC99-4E86-A471-21903A464858} = {AC68AA47-34E6-4CC0-ABB8-B6DF982ABF96}
+		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898} = {AC68AA47-34E6-4CC0-ABB8-B6DF982ABF96}
+		{FA523B26-2C87-40EA-981F-F308C5428FD8} = {B5356A62-2CB6-4C2F-8D2D-99DF5635B141}
+		{F4667508-33ED-44D6-BC31-E16090B221CF} = {B5356A62-2CB6-4C2F-8D2D-99DF5635B141}
+		{42955C60-BCF1-44BD-B0DE-5FADE19C689D} = {740FA5E6-262B-4B65-9F6B-91049DBB9C68}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64DD00D9-01B0-4C5E-BCCA-F07063F9CCD6}
+	EndGlobalSection
+EndGlobal
