@@ -8,8 +8,16 @@
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	</ItemGroup>
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <ProjectReference Include="..\ConfirmCoords.EF_Core\ConfirmCoords.EF_Core.csproj" />
+    <ProjectReference Include="..\ConfirmCoords.Infrastructure\ConfirmCoords.Infrastructure.csproj" />
+    <ProjectReference Include="..\ConfirmCoords.RabbitMQ\ConfirmCoords.RabbitMQ.csproj" />
+    <ProjectReference Include="..\ConfirmCoords.Telegram\ConfirmCoords.Telegram.csproj" />
   </ItemGroup>
 
 </Project>
