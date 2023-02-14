@@ -5,9 +5,9 @@ using System.Text.RegularExpressions;
 
 namespace ConfirmCoords.App.Validators
 {
-    public class CreatingCoordValidator : AbstractValidator<CreatingCoordViewModel>
+    public class CreatingCoordCommandValidator : AbstractValidator<CreatingCoordViewModel>
     {
-        public CreatingCoordValidator()
+        public CreatingCoordCommandValidator()
         {
             RuleFor(x => x.Details)
                 .NotEmpty().WithMessage(CreatingCoordErrors.DetailsRequired);
