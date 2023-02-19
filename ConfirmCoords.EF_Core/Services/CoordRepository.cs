@@ -23,6 +23,9 @@ namespace ConfirmCoords.EF_Core.Services
         {
             var coordToAdd = _mapper.Map<CoordDbo>(coordVM);
             coordToAdd.Created = DateTime.Now;
+            coordToAdd.UserName = coordVM.User.UserName;
+            coordToAdd.FullName = coordVM.User.FullName;
+            coordToAdd.PhoneNumber = coordVM.User.PhoneNumber;
 
             var res = await _coordContext.Coords.AddAsync(coordToAdd);
             await _coordContext.SaveChangesAsync();

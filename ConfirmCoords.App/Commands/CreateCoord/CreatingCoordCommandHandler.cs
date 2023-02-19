@@ -32,7 +32,6 @@ namespace ConfirmCoords.App.Commands.CreateCoord
                 return new CreatingCoordCommandResult(false, null, errorsStr);
             }
 
-
             var result = await _coordService.CreateCoord(request.Coord);
 
             return _mapper.Map<CreatingCoordCommandResult>(result);

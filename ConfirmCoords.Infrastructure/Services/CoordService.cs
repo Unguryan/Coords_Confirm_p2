@@ -18,7 +18,7 @@ namespace ConfirmCoords.Infrastructure.Services
         {
             var result = await _repository.AddCoordDetails(request);
 
-            return new CreatingCoordResultViewModel(true, result.Id);
+            return new CreatingCoordResultViewModel(true, result);
         }
     }
 }

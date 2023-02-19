@@ -20,7 +20,7 @@ namespace ConfirmCoords.App.Validators
                 .NotEmpty()
                 .NotNull().WithMessage(CreatingCoordErrors.LongitudeRequired);
 
-            RuleFor(x => x.PhoneNumber)
+            RuleFor(x => x.User.PhoneNumber)
                 .NotEmpty()
                 .NotNull().WithMessage(CreatingCoordErrors.PhoneNumberRequired)
                 .Length(13).WithMessage(CreatingCoordErrors.PhoneNumberLength)

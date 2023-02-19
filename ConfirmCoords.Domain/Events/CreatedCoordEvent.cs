@@ -1,6 +1,7 @@
 ﻿using ConfirmCoords.Domain.Events;
+using ConfirmCoords.Domain.Models;
 
 namespace Coord.Domain.Events
 {
-    public record CreatedCoordEvent (bool IsCreated, int? Id, string? ErrorMessage = null) : IBaseEvent;
+    public record CreatedCoordEvent (bool IsCreated, CoordDetails? Data, string? ErrorMessage = null) : IBaseEvent;
 }

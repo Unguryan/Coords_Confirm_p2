@@ -16,5 +16,7 @@ namespace ConfirmCoords.EF_Core.Dto
         public DateTime Created { get; set; }
 
         public string PhoneNumber { get; set; }
+        public string UserName { get; set; }
+        public string FullName { get; set; }
     }
 }
