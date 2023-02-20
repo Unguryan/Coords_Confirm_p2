@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -17,7 +17,6 @@
     <ProjectReference Include="..\ConfirmCoords.EF_Core\ConfirmCoords.EF_Core.csproj" />
     <ProjectReference Include="..\ConfirmCoords.Infrastructure\ConfirmCoords.Infrastructure.csproj" />
     <ProjectReference Include="..\ConfirmCoords.RabbitMQ\ConfirmCoords.RabbitMQ.csproj" />
-    <ProjectReference Include="..\ConfirmCoords.Telegram\ConfirmCoords.Telegram.csproj" />
   </ItemGroup>
 
 </Project>

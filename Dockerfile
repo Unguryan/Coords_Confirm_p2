@@ -11,6 +11,11 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["ConfirmCoords.API/ConfirmCoords.API.csproj", "ConfirmCoords.API/"]
+COPY ["ConfirmCoords.Domain/ConfirmCoords.Domain.csproj", "ConfirmCoords.Domain/"]
+COPY ["ConfirmCoords.App/ConfirmCoords.App.csproj", "ConfirmCoords.App/"]
+COPY ["ConfirmCoords.EF_Core/ConfirmCoords.EF_Core.csproj", "ConfirmCoords.EF_Core/"]
+COPY ["ConfirmCoords.Infrastructure/ConfirmCoords.Infrastructure.csproj", "ConfirmCoords.Infrastructure/"]
+COPY ["ConfirmCoords.RabbitMQ/ConfirmCoords.RabbitMQ.csproj", "ConfirmCoords.RabbitMQ/"]
 RUN dotnet restore "ConfirmCoords.API/ConfirmCoords.API.csproj"
 COPY . .
 WORKDIR "/src/ConfirmCoords.API"

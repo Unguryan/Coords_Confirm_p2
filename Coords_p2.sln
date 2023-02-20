@@ -21,11 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfirmCoords.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfirmCoords.EF_Core", "ConfirmCoords.EF_Core\ConfirmCoords.EF_Core.csproj", "{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfirmCoords.Telegram", "ConfirmCoords.Telegram\ConfirmCoords.Telegram.csproj", "{F4667508-33ED-44D6-BC31-E16090B221CF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfirmCoords.API", "ConfirmCoords.API\ConfirmCoords.API.csproj", "{42955C60-BCF1-44BD-B0DE-5FADE19C689D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmCoords.RabbitMQ", "ConfirmCoords.RabbitMQ\ConfirmCoords.RabbitMQ.csproj", "{C61F6E2F-15FA-4110-82CC-82BCBAAEEBB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfirmCoords.RabbitMQ", "ConfirmCoords.RabbitMQ\ConfirmCoords.RabbitMQ.csproj", "{C61F6E2F-15FA-4110-82CC-82BCBAAEEBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{59FBF98C-AD2B-45D0-93D7-5A3DF6266F1B}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +53,6 @@ Global
 		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4667508-33ED-44D6-BC31-E16090B221CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4667508-33ED-44D6-BC31-E16090B221CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4667508-33ED-44D6-BC31-E16090B221CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4667508-33ED-44D6-BC31-E16090B221CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42955C60-BCF1-44BD-B0DE-5FADE19C689D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42955C60-BCF1-44BD-B0DE-5FADE19C689D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42955C60-BCF1-44BD-B0DE-5FADE19C689D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -70,7 +70,6 @@ Global
 		{6F334A06-DF45-4DDA-B089-9746145A85C0} = {C6DE9E18-3001-4860-AF87-3501B8A69B7D}
 		{6BBE34C0-CC99-4E86-A471-21903A464858} = {AC68AA47-34E6-4CC0-ABB8-B6DF982ABF96}
 		{CD8A0997-DDA9-4C79-BDC2-7B58FB84C898} = {AC68AA47-34E6-4CC0-ABB8-B6DF982ABF96}
-		{F4667508-33ED-44D6-BC31-E16090B221CF} = {B5356A62-2CB6-4C2F-8D2D-99DF5635B141}
 		{42955C60-BCF1-44BD-B0DE-5FADE19C689D} = {740FA5E6-262B-4B65-9F6B-91049DBB9C68}
 		{C61F6E2F-15FA-4110-82CC-82BCBAAEEBB5} = {B5356A62-2CB6-4C2F-8D2D-99DF5635B141}
 	EndGlobalSection
